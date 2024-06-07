@@ -88,7 +88,6 @@ class App extends Component {
 
   getCategoryDetails = () => {
     const {restaurantDetails, activeCategory} = this.state
-    //console.log(restaurantDetails)
     return (
       <ul className="category-list-container">
         {restaurantDetails.tableMenuList.map(each => {
@@ -129,14 +128,12 @@ class App extends Component {
     )
   }
 
-  getDischesCategoryDetails = () => {
-    return (
-      <div className="">
-        {this.getCategoryDetails()}
-        {this.getDishDetails()}
+  getDischesCategoryDetails = () => (
+    <div className="">
+     {this.getCategoryDetails()}
+      {this.getDishDetails()}
       </div>
     )
-  }
 
   addCartItem = item => {
     const {cartList} = this.state

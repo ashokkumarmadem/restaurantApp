@@ -1,8 +1,8 @@
 import {useState} from 'react'
-
-import DishContext from '../../context/DishContext'
 import {FaPlus} from 'react-icons/fa'
 import {TiMinus} from 'react-icons/ti'
+
+import DishContext from '../../context/DishContext'
 import './index.css'
 
 const DishItem = props => {
@@ -82,3 +82,4 @@ const DishItem = props => {
 }
 
 export default DishItem
+

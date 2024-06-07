@@ -1,10 +1,9 @@
-import DishContext from '../../context/DishContext'
-
-import './index.css'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
+import DishContext from '../../context/DishContext'
+import './index.css'
 
 const Header = () => {
-  return (
+  (
     <DishContext.Consumer>
       {value => {
         const {cartList} = value
