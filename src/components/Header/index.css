@@ -1,0 +1,61 @@
+.header-container-lg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.order-text {
+  font-family: Roboto;
+  font-weight: 500;
+}
+.cart-icon {
+  height: 30px;
+  width: 30px;
+  color: black;
+  margin-top: 0px;
+}
+.header-container-lg-heading {
+  font-family: Roboto;
+  font-size: 26px;
+}
+.cart-number {
+  display: flex;
+  align-items: center;
+}
+.dish-count-cart {
+  display: flex;
+}
+.dish-count-number {
+  background-color: orange;
+  color: white;
+  font-family: Roboto;
+  font-size: 8px;
+  height: 14px;
+  width: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  left: 32px;
+  bottom: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 568px) {
+  .order-text {
+    display: none;
+  }
+  .cart-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .dish-count-number {
+    height: 20px;
+    width: 20px;
+    left: 46px;
+    font-size: 14px;
+  }
+}

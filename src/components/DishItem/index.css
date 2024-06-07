@@ -1,0 +1,145 @@
+* {
+  font-family: Roboto;
+}
+.vegan-style {
+  height: 24px;
+  width: 24px;
+  border: 1px solid rgb(85, 219, 85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  right: 8px;
+}
+.nv-style {
+  position: relative;
+  top: 20px;
+  right: 8px;
+  height: 24px;
+  width: 24px;
+  border: 1px solid rgb(203, 57, 57);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vegan-style1 {
+  height: 16px;
+  width: 16px;
+  background-color: rgb(85, 219, 85);
+  border-radius: 50%;
+}
+.nv-style1 {
+  height: 16px;
+  width: 16px;
+  background-color: rgb(203, 57, 57);
+  border-radius: 50%;
+}
+.add-minus-container {
+  background-color: rgb(18, 156, 18);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 120px;
+  padding: 6px;
+}
+.plus-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon {
+  color: white;
+  height: 18px;
+  width: 18px;
+}
+.item-count {
+  font-family: Roboto;
+  color: white;
+  font-size: 18px;
+}
+.not-available {
+  font-family: Roboto;
+  color: rgb(234, 52, 52);
+  font-size: 16px;
+  font-weight: bold;
+}
+.show-custom {
+  color: rgb(67, 77, 194);
+  font-family: Roboto;
+  font-size: 18px;
+  margin-top: 9px;
+}
+.each-dish-list {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px rgb(69, 67, 67) solid;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 14px;
+}
+.calories-text {
+  font-family: Roboto;
+  color: rgb(235, 176, 66);
+  font-weight: 600;
+  font-size: 18px;
+}
+.dish-image {
+  height: 160px;
+  width: 160px;
+  border-radius: 10px;
+}
+.dish-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin-top: 0px;
+}
+.dish-name {
+  font-size: 26px;
+  margin-bottom: 9px;
+}
+.dish-price {
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.dish-description {
+  opacity: 0.6;
+  color: black;
+  font-size: 16px;
+  margin-top: 9px;
+}
+.dish-name-desc-container {
+  height: 200px;
+  width: 650px;
+}
+@media screen and (max-width: 568px) {
+  .dish-name-desc-container {
+    height: 250px;
+    width: 230px;
+  }
+  .dish-image {
+    height: 120px;
+    width: 120px;
+    align-self: flex-start;
+    position: relative;
+    bottom: 60px;
+    right: 40px;
+  }
+  .dish-name {
+    font-size: 20px;
+    align-content: flex-start;
+  }
+  .each-dish-list{
+    width: 100%;
+  }
+}
